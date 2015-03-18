@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Handball-Anna University</title>
+		<meta name="author" content="Codrops" />
+		<meta http-equiv="refresh" content="28;index.html" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css1/default.css" />
+		<link rel="stylesheet" type="text/css" href="css1/component.css" />
+		<script src="js1/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			<div class="os-phrases" id="os-phrases">
+				<h2>Handball is </h2>
+				<h2>Where We Live,</h2>
+				<h2>Live is just a place</h2>
+				<h2>Where we spend Time between Games</h2>
+				<h2>Pray Handball....</h2>
+			</div>
+		</div><!-- /container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js1/jquery.lettering.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering(); 
+			})
+		</script>
+	</body>
+</html>
